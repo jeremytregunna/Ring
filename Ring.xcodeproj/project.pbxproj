@@ -10,6 +10,9 @@
 		4E9255751A322A0F00082D43 /* Ring.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9255741A322A0F00082D43 /* Ring.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E92557B1A322A0F00082D43 /* Ring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E92556F1A322A0F00082D43 /* Ring.framework */; };
 		4E9255821A322A0F00082D43 /* RingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9255811A322A0F00082D43 /* RingTests.swift */; };
+		4E92558E1A322D7200082D43 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92558B1A322D7200082D43 /* Lock.swift */; };
+		4E92558F1A322D7200082D43 /* RingImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92558C1A322D7200082D43 /* RingImpl.swift */; };
+		4E9255901A322D7200082D43 /* Supervisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92558D1A322D7200082D43 /* Supervisor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		4E92557A1A322A0F00082D43 /* RingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9255801A322A0F00082D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E9255811A322A0F00082D43 /* RingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTests.swift; sourceTree = "<group>"; };
+		4E92558B1A322D7200082D43 /* Lock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		4E92558C1A322D7200082D43 /* RingImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingImpl.swift; sourceTree = "<group>"; };
+		4E92558D1A322D7200082D43 /* Supervisor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supervisor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				4E9255741A322A0F00082D43 /* Ring.h */,
+				4E92558B1A322D7200082D43 /* Lock.swift */,
+				4E92558C1A322D7200082D43 /* RingImpl.swift */,
+				4E92558D1A322D7200082D43 /* Supervisor.swift */,
 				4E9255721A322A0F00082D43 /* Supporting Files */,
 			);
 			path = Ring;
@@ -209,6 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E92558E1A322D7200082D43 /* Lock.swift in Sources */,
+				4E9255901A322D7200082D43 /* Supervisor.swift in Sources */,
+				4E92558F1A322D7200082D43 /* RingImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
